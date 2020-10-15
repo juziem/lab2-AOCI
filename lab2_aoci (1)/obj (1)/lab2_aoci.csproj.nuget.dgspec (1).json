@@ -1,0 +1,73 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Vi\\Documents\\5 семестр\\aoci\\lab2_aoci\\lab2_aoci\\lab2_aoci.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Vi\\Documents\\5 семестр\\aoci\\lab2_aoci\\lab2_aoci\\lab2_aoci.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Vi\\Documents\\5 семестр\\aoci\\lab2_aoci\\lab2_aoci\\lab2_aoci.csproj",
+        "projectName": "lab2_aoci",
+        "projectPath": "C:\\Users\\Vi\\Documents\\5 семестр\\aoci\\lab2_aoci\\lab2_aoci\\lab2_aoci.csproj",
+        "packagesPath": "C:\\Users\\Vi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Vi\\Documents\\5 семестр\\aoci\\lab2_aoci\\lab2_aoci\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Vi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Emgu.CV": {
+              "target": "Package",
+              "version": "[4.3.0.3890, )"
+            },
+            "Emgu.CV.runtime.windows": {
+              "target": "Package",
+              "version": "[4.3.0.3890, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
